@@ -29,6 +29,8 @@ public class one {
 	
 	FileHandler.copy(source, destination);
 		
+		driver.close();
+		driver.navigate().back();
 		
 	}
 }
