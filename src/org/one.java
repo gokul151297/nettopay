@@ -31,6 +31,7 @@ public class one {
 		
 		driver.close();
 		driver.navigate().back();
+		driver.getTitle();
 		
 	}
 }
